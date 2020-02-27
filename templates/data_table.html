@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <meta charset="UTF-8">
+  <title>Villain_Island_Villas!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: rgb(54, 8, 8);
+    }
+
+    #top_row {
+      text-align: "center";
+    }
+
+    #table {
+      background-color: aliceblue;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/"><h2>Villain Island Villas!</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/"><h3>Home Page</h3><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/visuals"><h3>Visualizations</h3><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><h3>Data Table</h3><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/about_us"><h3>About Us</h3><span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="col-md-12">
+      <div class="well">
+        <div class="row" id="top_row">
+          <div class="col-md-4"></div>
+          <div class="col-md-6">
+            <h1>Filter by Selections Below</h1>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <br>
+        <div class = "row">
+          <div class="col-md-5">
+            <h3>Numerical Inputs<h6><input type="text" id="country_input" placeholder="Enter a Country">
+              <input type="text" id="min_acreage_input" placeholder="Enter Minimum Acreage">
+              <input type="text" id="max_acreage_input" placeholder="Enter Maximum Acreage"></h6></h3>
+          </div>
+          <div class="col-md-3"></div>
+          <div class="col-md-4">
+            <h3>Attribute Inputs</h3>
+            <select id="first_selection"></select>
+            <select id="second_selection"></select>
+            <select id="third_selection"></select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5"></div>
+          <div class="col-md-2">
+            <button id="submit" type="submit" class="btn btn-success center-block">Filter Table</button>
+          </div>
+          <div class="col-md-5"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well" id="table">
+          <div id="table-area" class="">
+            <table id="island-table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Island Name</th>
+                  <th class="table-head">Acreage</th>
+                  <th class="table-head">Airstrip or Fly-in</th>
+                  <th class="table-head">Country</th>
+                  <th class="table-head">Historic</th>
+                  <th class="table-head">Income Potential</th>
+                  <th class="table-head">Income Producing</th>
+                  <th class="table-head">Islands with Beaches</th>
+                  <th class="table-head">Lake Island</th>
+                  <th class="table-head">Large Acreage</th>
+                  <th class="table-head">Mainland Lot</th>
+                  <th class="table-head">Mainland Power</th>
+                  <th class="table-head">Ocean Island</th>
+                  <th class="table-head">River Island</th>
+                  <th class="table-head">Seasonal</th>
+                  <th class="table-head">Turn Key</th>
+                  <th class="table-head">City Distance</th>
+                  <th class="table-head">Island Latitude</th>
+                  <th class="table-head">Island Longitude</th>
+                  <th class="table-head">Nearest City Name</th>
+                  <th class="table-head">Price Predicted</th>
+                  <th class="table-head">Price</th>
+                </tr>
+              </thead>
+              <tbody id="dataTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="{{ url_for('static', filename='js/table.js') }}"></script>
+</body>
+
+
+</html>
