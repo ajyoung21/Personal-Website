@@ -10,14 +10,17 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route("/resume")
+def resume():
+    return render_template("resume.html")
 
-@app.route("/about_us")
+@app.route("/contact")
 def about():
-    return render_template("contact_information.html")
+    return render_template("contact.html")
 
-@app.route("/data_table")
-def data_table():
-    return render_template("data_table.html")
+@app.route("/podcast")
+def podcast():
+    return render_template("podcast.html")
 
 @app.route("/visuals")
 def globe():
