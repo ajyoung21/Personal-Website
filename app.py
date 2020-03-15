@@ -10,6 +10,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route("/podcast")
+def podcast():
+    return render_template("podcast.html")
+
 @app.route("/resume")
 def resume():
     return render_template("resume.html")
@@ -18,9 +22,11 @@ def resume():
 def about():
     return render_template("contact.html")
 
-@app.route("/podcast")
-def podcast():
-    return render_template("podcast.html")
+
+@app.route("/music_tier_list")
+def music():
+    return render_template("music_tier_list.html")
+
 
 @app.route("/visuals")
 def globe():
