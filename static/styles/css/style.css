@@ -38,6 +38,7 @@ main {
   background-color: var(--bg-primary);
   transition: width 600ms ease;
   overflow: scroll;
+  z-index: 999;
 }
 
 .navbar-nav {
@@ -217,7 +218,8 @@ main {
 }
 
   #Everything_Else{
-    padding-left: 10%
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   i{
@@ -231,6 +233,35 @@ main {
     transform: translate(-50%, -50%);
     font-size: 300px;
   }
+
+#EverythingElse{
+  margin: auto;
+}
+
+  .row h1{
+  
+    font-size: 120px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+   
+    text-align: center;
+    display: inline;
+    position: relative;
+    z-index: 20;
+  }
+
+
+  
+  .row .col-md-9{
+    
+
+    border: 2px solid black
+  }
+
+  
+
+ 
 
  
   #S {
@@ -247,6 +278,19 @@ main {
     z-index: 20;
    
   }
+
+  #Sz{
+    background:rgb(20, 118, 237, .6);
+    
+  }
+
+  #SZZ{
+    background-color:rgb(20, 118, 237);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
 
 
   #A {
@@ -266,6 +310,13 @@ main {
 #Az{
   background:rgb(3, 152, 50, .6);
 }
+
+#AZZ{
+  background-color:rgb(3, 152, 50);
+  border: 2px solid black;
+  padding-right: 10%;
+  padding-left:3%;
+}
   
   #B {
     border: 2px solid black;
@@ -281,6 +332,13 @@ main {
 
   #Bz{
     background: rgb(152, 3, 135, .6);
+  }
+
+  #BZZ{
+    background-color:rgb(152, 3, 135);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
   }
 
   #C {
@@ -300,6 +358,13 @@ main {
     background: rgb(220, 204, 29, .6);
   }
 
+  #CZZ{
+    background-color:rgb(220, 204, 29);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
   #D {
     border: 2px solid black;
     background-color:rgb(223, 104, 13);
@@ -314,6 +379,13 @@ main {
 
   #Dz{
     background: rgb(223, 104, 13, .6);
+  }
+
+  #DZZ{
+    background-color:rgb(223, 104, 13);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
   }
 
   #E {
@@ -336,6 +408,13 @@ main {
   }
   
 
+  #EZZ{
+    background-color:rgb(94, 70, 10);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
   #F {
     border: 2px solid black;
     background-color:rgb(152, 3, 3);
@@ -348,8 +427,15 @@ main {
     display: inline;
   }
 
-  #Ez{
+  #Fz{
     background: rgb(152, 3, 3, .6);
+  }
+
+  #FZZ{
+    background-color: rgb(152, 3, 3);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
   }
   
 
@@ -421,10 +507,19 @@ text-shadow: -2px 2px 0px #02b0b0,
    margin:auto
  }
 
-  .image-container {
+
+  .carousel .image-container {
     position: relative;
     width: 360px;
     height: 360px;
+}
+
+.row .image-container{
+  position: relative;
+    width: 240px;
+    height: 240px;
+
+
 }
 .image-container .after {
     position: absolute;
@@ -474,3 +569,39 @@ text-shadow: -2px 2px 0px #02b0b0,
                   text-shadow:-2px 2px 0px rgb(20, 118, 237),
                                  -4px 4px 0px rgb(3, 152, 50),
                                  -6px 6px 0px rgb(152, 3, 135) }
+
+
+#vamp3{
+  font-size: 8%;
+  text-align: center;
+  text-shadow: 0 1px 2px #648ac4,
+  1px 3px 1px #5987c0, 
+  2px 5px 1px #4691b9, 
+  4px 7px 1px #3f71a6, 
+  6px 9px 1px #387494,
+  8px 11px 1px #315e81,
+  10px 13px 1px #2a406f,
+  12px 15px 1px #232e5c;
+
+
+}
+
+#vamp4{
+  font-size: 12%;
+  text-align: center;
+  text-shadow: -3px 3px 0 #41ba45,
+	3px 3px 0 #c63d2b,
+	3px -3px 0 #42afac,
+  -3px -3px 0 #0589d5,
+  -2px 4px 0 #41ba45,
+	4px 4px 0 #c63d2b,
+	4px -2px 0 #42afac,
+  -2px -2px 0 #0589d5,
+  -1px 5px 0 #41ba45,
+	5px 5px 0 #c63d2b,
+	5px -1px 0 #42afac,
+	-1px -1px 0 #0589d5;
+
+
+
+}
