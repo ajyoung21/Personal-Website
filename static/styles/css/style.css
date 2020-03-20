@@ -41,6 +41,14 @@ main {
   z-index: 999;
 }
 
+h4{
+  color: white;
+}
+
+p, li, button{
+  font-size: 150%
+}
+
 .navbar-nav {
   list-style: none;
   padding: 0;
