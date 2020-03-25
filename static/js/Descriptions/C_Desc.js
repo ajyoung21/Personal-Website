@@ -1,5 +1,6 @@
 d3.select("#ETERNAL_ATAKE").on("click", EA)
 d3.select("#AAL").on("click", AAL)
+d3.select("#CHILDISH_GAMBINO").on("click", CG)
 d3.select("#C_Desc").on("click", close)
 
 
@@ -106,6 +107,51 @@ my favorite electronic record of the year (albeit faint praise given my limited 
 
 
    </p><button id="Close">CLOSE</button>`
+)
+
+}
+
+
+
+
+function CG(){
+
+  close()
+  var info = d3.select("#C_Desc")
+
+console.log('Childish Gambino')
+
+info.html(`<p>Childish Gambino</p>
+<p>3.15.20</p>
+
+<p>I refuse to let '3.15.20s' all-white album cover ruin my tier-list aesthetics. I've never
+gotten into Gambino as an artist and this album roll-out makes it hard. The full-on pretentiousness
+of a blank album cover and refusing to name 80% of your songs in the name of art is low-key
+insulting.</p>
+
+<p>It's a decent album with some nice soul passages and wannabe Kanye impressions. He's matured
+a lot from the days of 'Camp' and 'Before the Internet'. I really
+like Donald's vivacity and energy on the last track. I would talk more about my favorite
+tracks, but it's hard to differentiate between them because of their timestamp titles.
+At least Kendrick Lamar's 'untitled unmastered' had songs listed 1,2,3 etc. Ughh....
+
+<p>Favorite Tracks:
+  <ol>
+    <li>
+      Favorite Track #1
+    </li>
+    <li>
+        Favorite Track #2
+      </li>
+      <li>
+          Favorite Track #3
+        </li>
+  </ol>
+</p>
+</p>
+
+
+ </p><button id="Close">CLOSE</button>`
 )
 
 }

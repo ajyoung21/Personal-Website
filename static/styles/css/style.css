@@ -49,6 +49,17 @@ p, li, button{
   font-size: 150%
 }
 
+
+
+button{
+  background-color: rgb(40, 170, 250);
+  color:white;
+  opacity: 1;
+  text-shadow:-1px 1px 0px rgb(20, 118, 237),
+                                 -2px 2px 0px rgb(3, 152, 50),
+                                 -3px 3px 0px rgb(152, 3, 135) 
+}
+
 .navbar-nav {
   list-style: none;
   padding: 0;
@@ -138,6 +149,12 @@ p, li, button{
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
+  .carousel{
+    width:65%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 125, 150,1) 100%);
+ 
+  }
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -163,6 +180,13 @@ p, li, button{
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
+
+  .carousel{
+    width:45%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 125, 150,1) 100%);
+ 
+  }
   .navbar {
     top: 0;
     width: 5rem;
@@ -207,6 +231,10 @@ p, li, button{
   --text-secondary: #35535c;
   --bg-primary: #fdf6e3;
   --bg-secondary: #f5e5b8;
+}
+
+a{
+  color: rgb(46, 191, 51)
 }
 
 .theme-icon {
@@ -469,12 +497,7 @@ p, li, button{
    margin:auto;
  }
 
- .carousel{
-   width:45%;
-   margin: auto;
-   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 125, 150,1) 100%);
-
- }
+ 
 
  .carousel-caption h3{
    opacity: .95;
