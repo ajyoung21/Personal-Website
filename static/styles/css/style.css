@@ -636,3 +636,21 @@ text-shadow: -2px 2px 0px #02b0b0,
 
 
 }
+
+
+#vamp5{
+  color: #ffffff;
+  
+  width: 25%;
+  font-size: 62px;
+
+  position: relative;
+  z-index: -1;
+
+  -webkit-text-stroke: 1px black;
+  text-shadow:-4px 4px 0px rgb(20, 118, 237),
+                 -8px 8px 0px rgb(3, 152, 50),
+                 -12px 12px 0px rgb(152, 3, 135) 
+                ;
+              
+              }

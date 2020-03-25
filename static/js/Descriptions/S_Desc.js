@@ -84,7 +84,8 @@ reads it.
 </br></br>
 I do not claim to be the <a href="https://www.youtube.com/user/theneedledrop">Internet's Busiest 
 Music Nerd.</a> Some of these albums I'm just going to listen to once. I may crap on your
-favorite album. I may rate Billie Eilish too high (except I didn't and can mathematically prove
+favorite album. I will be inconsistent. I may rate Billie Eilish too high (except I didn't and can
+mathematically prove
 that her album was better than Ariana Grande's album last year). It's nothing personal. Let me know if
 you have any thoughts. I plan to keep adding to this page and possibly making more interactive
 features depending on how much react.js I learn. Check it out!
