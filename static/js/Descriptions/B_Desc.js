@@ -89,7 +89,7 @@ times over the course of the album that make the album sound like it was produce
 I don't get it. These two problems would've taken 10 seconds to fix and I'm baffled that that they
 weren't in the 10 years Jay Electronica had to fix them.</p>
 
-<p>Overall, I want to promote good hip-hop on my tier list, and I think "A Written Testimony" is
+<p>Overall, I want to promote good hip-hop on my tier list. I think "A Written Testimony" is
 just that. However, you just have to turn a blind eye to some annoying missteps.</p>
 
 

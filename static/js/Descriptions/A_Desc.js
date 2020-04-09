@@ -131,26 +131,26 @@ info.html(`<p>Dua Lipa</p>
 <p>I'd like to think that over the years that I've become a "Poptimist" - a hipster that believes
 that pop music can be good. I'd also like to
 think that Pop music has gotten a lot more creative and inventive in the past few years.
-In a genre where labels are machine-learning formulas are generating algorithms to create hits
-for the least common denominator, you worry that nobody would be willing to risk deviating from
-the norm.</p>
+In a genre where labels are machine-learning formulas algorithms to create hits
+for the least common denominator, you worry that pop music is more focused on the end result
+(selling records and topping the charts) as opposed to the quality of the end product.</p>
 
-<p>Dua Lipa's 'Future Nostalgia' deviates from the norm, but in a way that closely studies
-what makes pop music great as opposed to blindly following its formulas. It's a pop album
-through and through, with overly dramatic strings and 90% of the songs being about love, but
-it just feels 10x more refreshing than any other pop album on the mark.</p>
+<p>Dua Lipa's 'Future Nostalgia' is formulaic, but in a way that closely studies
+what makes pop music great as opposed to blindly following the algorithm. Take the single 'Physical'
+for instance. It sounds like the beat from Britney Spears' 'Toxic' mixed with an anthemic chorus
+that sounds like Lady Gaga, all while paying homage to Olivia Newton-John's 80's original hit. 
+It's nothing really new, but 'Future Nostalgia' just feels 10x more refreshing than any other 
+pop album on the market.</p>
 
-<p>It doesn't hurt that the production BUMPS. Whether it's the turbocharged plucky strings on
-'Physical' or the frozen-in-time Darth Vaderesque strings on 'Love Again,' everything feels
-deliberate.</p>
+<p>It doesn't hurt that the production BUMPS. Whether it's the turbocharged bass on
+'Physical' or the frozen-in-time Darth Vaderesque strings on 'Love Again,' every production design
+choice feels deliberate.</p>
 
 <p>Unfortunately, a lot of songs ('Pretty Please' and 'Good In Bed' especially) would benefit
-tremendously if the hook was 20% better. So many songs are so close to being great which is my 
-only real
-frustration with the album.</p>
+tremendously if the hook was 20% better. So many songs are oh so close to being great which is my 
+only real frustration with the album.</p>
 
-<p>Overall, 'Future Nostalgia' isn't the greatest album of all time, but it feels like a total
-breath of fresh air. I am a fan.</p>
+<p>Overall, 'Future Nostalgia' isn't the greatest album of all time, but I am a fan.</p>
 
 <p>PS: Idk what it says about me that my favorite songs are 'Physical' and 'Good In Bed.'
 Don't read anything into this, Mom.</p>
