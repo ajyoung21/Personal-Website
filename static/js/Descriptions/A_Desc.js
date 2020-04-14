@@ -3,6 +3,7 @@
 d3.select("#UNLOCKED").on("click", unlocked)
 d3.select("#A_Desc").on("click", close)
 d3.select("#FUTURE_NOSTALGIA").on("click", dua_lipa)
+d3.select("#THE_STROKES").on("click", the_strokes)
 
 var info = d3.select("#A_Desc")
 
@@ -169,6 +170,47 @@ Don't read anything into this, Mom.</p>
 
 }
 
+function the_strokes(){
+
+    close()
+    var info = d3.select("#A_Desc")
+
+console.log('The Strokes - The New Abnormal')
+
+info.html(`<p>The Strokes</p>
+<p>The New Abnormal</p>
+
+
+<p>I am very late to the Strokes/Julian Casablancas party. I started paying attention when Julian Casablancas
+(the former, now current lead singer of The Strokes) and his edgier rock band called The Voidz released their
+2018 album 'Virtue'. I was struck by Julian's charismatic vocal delivery and the band's penchant for creating
+epic vocal and instrumental moments on the album. I was sold.</p>
+
+   <p>Fast forward to now, with Julian back with the chill vibes of The Strokes, we have a little more adventurous
+   version of that classic Strokes sound. In short, imagine The Strokes, but with Julian often using his voice in a
+   soaring, echo-y manner á la The Killers at the end of "All These Things That I've Done".</p>
+
+<p>Often, people might make fun of Radiohead fans for eating up every moan and mumble that lead singer
+    Thom Yorke utters on the mic. While it's a hyperbolic statement, that's where I'm at with Julian Casablancas.
+    You can have a nice Strokes backdrop with Julian riffing his heart away and I'm sold. That recipe works for me.</p>
+
+    <p>I personally struggle with rating any type of chill rock music. I can't find glaring flaws in the way that I find
+    them easier to spot in a hip-hop or pop album. It all sounds pretty good to me. That said, I'm loving this Strokes
+    record and hopefully you might too.</p>
+
+        <p>Favorite Tracks:</p>
+
+   <ol>
+       <li>Selfless</li>
+       <li>The Adults Are Talking</li>
+       <li>Ode To The Mets</li>
+   </ol>
+
+   </p><button id="Close">CLOSE</button>`
+)
+
+}
+
 
 function about(){
 
@@ -199,3 +241,6 @@ features depending on how much react.js I learn. Check it out!
 )
 
 }
+
+
+
