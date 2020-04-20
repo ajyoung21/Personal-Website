@@ -13,7 +13,7 @@ body {
   background-image: url("../../images/background.png");
   margin: 0;
   padding: 0;
-  background-size: 2300px 5000px;
+  background-size: 2300px 7000px;
 }
 
 body::-webkit-scrollbar {
