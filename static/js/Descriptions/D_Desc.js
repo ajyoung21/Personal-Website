@@ -39,34 +39,40 @@ some decent musical passages mixed in, but none that evolve into a particularly 
 "I Want You To Love Me" seemed like it was about to stick the landing before the final 20 seconds of the song
 sonically devolved into what I can only describe as dolphin sex.</p>
 
-<p>That in itself shouldn't be a total deal breaker. Even Kendrick Lamar's "To Pimp A Butterfly" and Kanye West's
+<p>That in itself shouldn't be a total deal breaker. Even past 10/10s like Kendrick Lamar's "To Pimp A Butterfly" and 
+Kanye West's
 "My Beautiful Dark Twisted Fantasy" have their fair share of quirky and crude moments (see: 'For Free' and 'Blame
-Game Skit'). However, "Fetch The Bolt Cutters" doesn't have a particularly genius concept or narrative to pick up
-the slack.</p>
+Game Skit'). However, "Fetch The Bolt Cutters" doesn't have a particularly genius concept or narrative to trick the
+listener into thinking that these quirks serve a higher purpose.</p>
 
 <p>And to stop dancing around the elephant in the room, much of the themes of "Fetch The Bolt Cutters" are feminist,
 with Fiona describing as a goal of the album to "not [let] men pit us against eachother." I don't
-have any comment the legitimacy of those themes or on feminism as a whole. My objections with this album stem more
-with the musical production side than with the messaging in the lyrics.
-Yet while it doesn't bother me that the album has feminist themes, it does that enjoyment of the album seems 
-to be contingent on where you stand on that issue.</p>
+have any comment the legitimacy of those themes or on feminism as a whole. Fiona's songs and pain feel genuine. 
+To reiterate; my criticisms are about the honky tonk dolphin sex, not the female sex (*end bad joke*).
+Yet while it doesn't bother me that the album has feminist content, it does bother me that enjoyment of the album seems
+contingent on the listener going all-in on the narrative.</p>
 
 <p>Fiona has some witty one-liners, my favorite being on the song 'Shameika' when she swankily states 
 "I wasn't afraid of the bullies, and that just made the bullies worse." That's a bar! There's also a gut punch on "For Her" 
 which is kind of something. Yet, I don't find the choruses on 'Shameika,' 'Under The Table,' or 'Relay' as profound as
-other people seem to be finding them. Maybe there's some satire going over my head.</p>
+other people seem to be finding them. Maybe there's some deep satire going over my head.</p>
 
 <p>I would liken this to when Childish Gambino's 'This is America' won Record of the Year at the Grammys. Sure, it
 was attached to the music video of the year and carried a significant political message. However, on its own, the song
 is an average trap song with an average gospel choir in the background and most of the raps don't even rhyme. If your
 stance on the issue (in this case, gun control) switches from "strongly agree" to "mildly agree", does 'This Is America'
-even make the top 20 songs that year?</p>
+even make your top 20 songs that year?</p>
 
-<p>Many people find this album to be very empowering, and that's great. It's obviously not for me. However, I don't
-think that the music supporting the album is good and I don't think that the album's narrative picks up the slack. The
-album itself doesn't trigger me. What triggers me is when the music media's gatekeepers (*cough* Pitchfork - "The Most 
-Trusted Voice In Music") participate in increasingly predictable grade inflation because an album or song reinforces
-their preferred message.</p>
+<p>Many people find this album to be very empowering, and that's great. "Fetch The Bolt Cutters" is obviously not for me. 
+I am also certainly guilty of loving and highly rating
+niche albums that aren't palatable to the average listener. However,
+I don't see a musical case for this album to be a 7/10, much less a 10/10.</p>
+
+<p>The album itself doesn't trigger me. It's a piece of art that I have a subjectively negative view of.
+What triggers me is when the music media's supposedly objective gatekeepers 
+(*cough* Pitchfork - "The Most 
+Trusted Voice In Music") inflate grades because an album or song reinforces
+their preferred message. At least they're becoming consistently predictable.</p>
 
 </p>
 <p>Favorite Tracks: 
