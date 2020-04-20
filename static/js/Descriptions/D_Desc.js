@@ -54,7 +54,7 @@ to be contingent on where you stand on that issue.</p>
 <p>Fiona has some witty one-liners, my favorite being on the song 'Shameika' when she swankily states 
 "I wasn't afraid of the bullies, and that just made the bullies worse." That's a bar! There's also a gut punch on "For Her" 
 which is kind of something. Yet, I don't find the choruses on 'Shameika,' 'Under The Table,' or 'Relay' as profound as
-other people seem to be finding them. Maybe there's some satire is going over my head.</p>
+other people seem to be finding them. Maybe there's some satire going over my head.</p>
 
 <p>I would liken this to when Childish Gambino's 'This is America' won Record of the Year at the Grammys. Sure, it
 was attached to the music video of the year and carried a significant political message. However, on its own, the song
