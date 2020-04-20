@@ -34,7 +34,7 @@ piano for melodies, bangs on the walls of her house for percussion, and solicits
 get writing credits on the album) for texture. As a dude who unironically enjoys very weird music from the likes
 of 100 Gecs and Iglooghost...I'm fine with it. Let the chef cook.</p>
 
-<p>Out of the oven we get a bunch of repetitive, honky tonk slogans; the biggest example being on "Relay". There are
+<p>Yet out of the oven we get a bunch of repetitive, honky tonk slogans; the biggest example being on "Relay". There are
 some decent musical passages mixed in, but none that evolve into a particularly great song. The opening track
 "I Want You To Love Me" seemed like it was about to stick the landing before the final 20 seconds of the song
 sonically devolved into what I can only describe as dolphin sex.</p>
