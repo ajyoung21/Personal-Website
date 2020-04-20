@@ -48,7 +48,7 @@ listener into thinking that these quirks serve a higher purpose.</p>
 <p>And to stop dancing around the elephant in the room, much of the themes of "Fetch The Bolt Cutters" are feminist,
 with Fiona describing as a goal of the album to "not [let] men pit us against eachother." I don't
 have any comment the legitimacy of those themes or on feminism as a whole. Fiona's songs and pain feel genuine. 
-To reiterate; my criticisms are about the honky tonk dolphin sex, not the female sex (*end bad joke*).
+To reiterate; my criticisms are about the honky tonk and dolphin sex sounds.
 Yet while it doesn't bother me that the album has feminist content, it does bother me that enjoyment of the album seems
 contingent on the listener going all-in on the narrative.</p>
 
@@ -66,7 +66,9 @@ even make your top 20 songs that year?</p>
 <p>Many people find this album to be very empowering, and that's great. "Fetch The Bolt Cutters" is obviously not for me. 
 I am also certainly guilty of loving and highly rating
 niche albums that aren't palatable to the average listener. However,
-I don't see a musical case for this album to be a 7/10, much less a 10/10.</p>
+I don't see a musical case for this album to be a 7/10, much less a 10/10. (Note: This album reminds me Montana Roberts'
+2019 album "Coin Coin Chapter Four: Memphis" which takes a similar level of sonic risks but brings back a much greater musical 
+return imo.)</p>
 
 <p>The album itself doesn't trigger me. It's a piece of art that I have a subjectively negative view of.
 What triggers me is when the music media's supposedly objective gatekeepers 
