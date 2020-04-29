@@ -27,6 +27,10 @@ def about():
 def music():
     return render_template("music_tier_list.html")
 
+@app.route("/video_game_tier_list")
+def video_game():
+    return render_template("video_game_tier_list.html")
+
 
 @app.route("/visuals")
 def globe():

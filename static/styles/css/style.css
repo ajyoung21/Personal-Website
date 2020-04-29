@@ -339,12 +339,14 @@ a{
     padding-right: .5%;
     text-align: center;
     display: inline;
+    z-index: 21;
   }
 
  
 
 #Az{
   background:rgb(3, 152, 50, .6);
+  z-index: 20;
 }
 
 #AZZ{
@@ -411,6 +413,7 @@ a{
     padding-right: .5%;
     text-align: center;
     display: inline;
+    z-index: 20;
   }
 
   #Dz{
