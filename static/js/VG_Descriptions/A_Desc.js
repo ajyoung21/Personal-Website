@@ -145,8 +145,23 @@ info.html(`<p>Dead Cells</p>
 <p>Mac</p>
 <p>Play Time: 250+ hours</p>
 
+<p>I've spent 250+ hours playing this game over the years, which is ironic because you can beat Dead Cells in
+40 minutes to an hour.</p>
 
-<p>Dead Cells review coming soon.</p>
+<p>Dead Cells is a tense, high-wire act journeying through randomized dungeons. Every level 
+has a quota of enemies, rooms, and loot that give an aura familiarity, with randomized layouts that keep each play
+through fresh and dangerous. Your character is glass cannon; carrying enough firepower to fell any enemy in seconds,
+but squishy to the point where one major mistake can end your run.</p>
+
+<p>Replayability is the name of the game, in a good and bad way. Usually, you'll die due to one lazy mistake and it'll
+suck you in to "just" one more run. Every run, you'll accumulate cells, the eternal currency that you can spend to
+upgrade your loot and unlock new weapons. Should you succed and defeat the final boss, you unlock New Game Plus 
+(all the way up to New Game Plus x5) with different, deadlier enemies and more handicaps to your character. 
+You're only scratching the surface of what the game has to offer.</p>
+
+<p>Even after making it to the top of the mountain (beating the final boss on NG+5), I'm still haven't totally put
+it down. Every now and then, boredom will sway me into trekking into yet another quick run, even though it will
+probably end in pain. I guess the fleeting promise of a perfect run is too hard to pass up.</p>
 
    </p><button id="Close">CLOSE</button>`
 )
@@ -161,24 +176,14 @@ function about(){
 
 console.log('About')
 
-info.html(`<h4>Last year I made a mid-year <a href="https://postgradpalabras.wordpress.com/2019/07/19/the-mid-year-aoty-tier-list-part-2/">Album of the Year Tier List.</a> 
-It was a long, arduous process in which I had to dig deep into my brain to search for how
-I felt about an album that I had listened to several months prior. I wanted to do an end-of-year
-update to the list, but it was just too big of an undertaking (In short: 1. 1000 Gecs, 2. Juice WRLD 
-3. Billie Eilish, the Lana album was aight.) </br></br>
-I want to make this a living, breathing document that I add to whenever I have an opinion on an
-album. Think something like the Constituation, but people actually respect it and only my grandma
-reads it.
-</br></br>
-I do not claim to be the <a href="https://www.youtube.com/user/theneedledrop">Internet's Busiest 
-Music Nerd.</a> Some of these albums I'm just going to listen to once. I may crap on your
-favorite album. I will be inconsistent. I may rate Billie Eilish too high (except I didn't and can
-mathematically prove
-that her album was better than Ariana Grande's album last year). It's nothing personal. Let me know if
-you have any thoughts. I plan to keep adding to this page and possibly making more interactive
-features depending on how much react.js I learn. Check it out!
-</h4>
+info.html(`<h4>Like in my music list, I have lukewarm takes on video games. These are the video games that I 
+have played in the past couple of years. Usually, those games are on PS4, or Steam (Mac or PC). I have chosen
+not to include Super Smash Bros (Sm4sh and/or Ultimate) even though I played a ton at college and friends houses
+because it just feels like it's a different sport in comparison to these single-player titles. I also didn't include
+Kingdom Hearts 1.5, 2.5, and 2.8, as they are mostly compilation remasters of old games.</p>
 
+<p>Have any hot/lukewarm music or video game takes? Message me on Instagram (@alex.young.90) or email me at
+ajyoung21@gmail.com</p>
    <center></p><button id="Close">CLOSE</button></center>`
 )
 
