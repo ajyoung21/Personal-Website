@@ -1,9 +1,14 @@
 
 
-d3.select("#UNLOCKED").on("click", unlocked)
+d3.select("#HORIZON_ZERO_DAWN").on("click", hzd)
 d3.select("#A_Desc").on("click", close)
-d3.select("#FUTURE_NOSTALGIA").on("click", dua_lipa)
-d3.select("#THE_STROKES").on("click", the_strokes)
+d3.select("#SHADOW").on("click", shadow)
+d3.select("#DEAD_CELLS").on("click", dc)
+d3.select("#HOLLOW_KNIGHT").on("click", hk)
+d3.select("#About").on("click", about)
+d3.select("#About_Desc").on("click", close2)
+
+var info = d3.select("#A_Desc")
 
 var info = d3.select("#A_Desc")
 
@@ -16,39 +21,34 @@ function close() {
 }
 
 
-function unlocked(){
+function hzd(){
 
     close()
     var info = d3.select("#A_Desc")
 
-console.log('UNLOCKED - Denzel Curry')
+console.log('Horizon Zero Dawn')
 
-info.html(`<p>Denzel Curry X Kenny Beats</p>
-<p>UNLOCKED</p>
+info.html(`<p>Horizon Zero Dawn</p>
+<p>PS4</p>
 
 
-<p>I have season tickets to anything Denzel Curry and he definitely delivered here.
-    While Denzel usually raps in a militant,
-   triplet flow (flow = the rhythm that you rap your words in), Kenny Beats' swaying, side-to-side, boom-bap 
-   production has Denzel adapting with an off-kilter flow that's historically dominated the New
-   York scene.</p>
+<p>The 2010s produced so many 3rd-person, stealth-action, "Assassin's Creed"-like games. You have games like the
+Batman series, the Shadow of Mordor series, Spiderman, not to mention Ubisoft's Assassin Creed games that they
+seem to be pumping out every year. Of all of the games in that genre, I think Horizon Zero Dawn is the cream of
+crop.</p>
 
-   <p>Kenny does a great job of supplementing any rests that Denzel takes. Whether it's
-     Madvillainy-esque skits bookending the project or little vocal modifications here and
-     there, Kenny sounds like a live-DJ who knows when to add sound effects and when to
-     drop the beat and get the hell out of Denzel's way. </p>
+<p>Horizon Zero Dawn's premise is pretty ridiculous. Essentially, robotic dinosaurs have taken over the earth 
+and you need to take them all down by yourself with only a spear and a bow at your disposal. Even more ridiculous 
+are its action sequences. You may be lurking through grasslands trying to fend off invisible robotic sabertooth tigers
+at one point, only to come to a valley with lava-spewing robotic pterodactyls patrolling the skies. Enemy designs
+are fun and require different weapons and different types of arrows to take them down.</p>
 
-     <p> Although "UNLOCKED" doesn't feature the grand scope and focus that made Denzel's
-        2018 album, "TA1300", so good, (How could it? UNLOCKED was made in three days) this
-        is the perfect mini-project to tide fans over to whatever's next.</p>
+<p>My ultimate Horizon Zero Dawn moment was being trapped in a large room with a "Thunder Jaw," Horizon's massive
+apex predator. The absolute rush of unloading every weapon I had as the homie shot LASERS FROM ITS EYES and rockets
+off its back stands as possibly my most thrilling gaming encounter of the past decade.</p>
 
-        <p>Favorite Tracks:</p>
-
-   <ol>
-       <li>'Cosmic'.m4a</li>
-       <li>Pyro (leak 2019)</li>
-       <li>DIET_</li>
-   </ol>
+<p>Oh, and the story is pretty good despite its premise. Pretty much everything about this game is really good. If
+you want to play a game in the "Assassin's Creed" genre, this is the one.</p>
 
    </p><button id="Close">CLOSE</button>`
 )
@@ -56,11 +56,7 @@ info.html(`<p>Denzel Curry X Kenny Beats</p>
 }
 
 
-d3.select("#AFTER_HOURS").on("click", after_hours)
-d3.select("#About").on("click", about)
-d3.select("#About_Desc").on("click", close2)
 
-var info = d3.select("#A_Desc")
 
 
 function close() {
@@ -78,133 +74,79 @@ function close2() {
 }
 
 
-function after_hours(){
+function hk(){
 
     close()
     var info = d3.select("#A_Desc")
 
-console.log('The Weeknd - After Hours')
+console.log('Hollow Knight')
 
-info.html(`<p>The Weeknd</p>
-<p>After Hours</p>
+info.html(`<p>Hollow Knight</p>
+<p>Mac</p>
+<p>Playing Time: 53 hours</p>
 
-<p>Abel Tesfaye (aka The Weeknd) hasn't ever been my jam. Sure, I'll like select singles like "The Hills" or
-"Starboy," but the only time I listened to a Weeknd album front-to-back, (his 2016 album "Starboy")
-I wasn't blown away.</p>
+<p>This is one of the best and most polished indie games that I have ever played. Hollow Knight is an action-packed
+2D platformer inspired by the Dark Souls series that benefits greatly from its art direction and its immersive,
+gloomy world. All of the different winding passageways in the subterranean Hollownest are brimming with secrets for
+the player to discover. Enemy and boss encounters are tense and memorable and force you to learn the enemy's attack
+patterns if you are to survive.</p>
 
-<p>While I'm not completely floored with this album, there are some very compelling moments
-(Scared to Live and the title track to name a few) that propels this album above anything else 
-I've heard this year. The Weeknd has leveled up his sound and songwriting.</p>
+<p>That isn't to say that your journey does not face many trials and tribulations. Checkpoints are relatively few
+and far between, and dying enables a unique mechanic that forces you to fight back to the spot you were slain and 
+capture a ghost or else you will lose all of your money. It's an interesting mechanic that adds real stakes to Hollow
+Knight's gameplay loop, yet gets old and feels a little too punitive the longer that you've been playing the game.</p>
 
-<p>The album's biggest misstep is 'Snowchild,' where Abel Tesfaye reverts back to his old sound
-and thinking that he can rap. "Stack a couple M's like I'm Shady"? 
-"All my diamonds hitting like they Swae Lee"?? "Futuristic sex, give her Philip K Dick"???
-Are these really your best BARS?? 
-</p>
-
-    <p>Still, 'After Hours' conveys genuine emotion and comes through with some of the best
-    musical moments so far this year.</p>
-
-
-        <p>Favorite Tracks:</p>
-
-   <ol>
-       <li>After Hours</li>
-       <li>Scared to Live</li>
-       <li>Faith</li>
-   </ol>
+<p>If you like difficult games or Metroidvanias, Hollow Knight is a must-play. I only have it behind Dead Cells 
+because in practice,
+I've played Dead Cells exponentially more.</p>
 
    </p><button id="Close">CLOSE</button>`
 )
 
 }
 
-function dua_lipa(){
+function shadow(){
 
     close()
     var info = d3.select("#A_Desc")
 
-console.log('Dua Lipa - Future Nostalgia')
+console.log('Shadow of Mordor')
 
-info.html(`<p>Dua Lipa</p>
-<p>Future Nostalgia</p>
+info.html(`<p>Shadow of Mordor</p>
+<p>PS4</p>
 
-<p>I'd like to think that over the years that I've become a "Poptimist" - a hipster that believes
-that pop music can be good. I'd also like to
-think that Pop music has gotten a lot more creative and inventive in the past few years.
-In a genre where labels are machine-learning formulas algorithms to create hits
-for the least common denominator, you worry that pop music is more focused on the end result
-(selling records and topping the charts) as opposed to the quality of the end product.</p>
+<p>It's weird because I know some people who hate this game. Shadow of Mordor is like a glorious, fattening trip
+to a Brazilian steakhouse; you're not getting a ton of variety and the meat may not be high quality, but boy does it
+satisfy in the moment.</p>
 
-<p>Dua Lipa's 'Future Nostalgia' is formulaic, but in a way that closely studies
-what makes pop music great as opposed to blindly following the algorithm. Take the single 'Physical'
-for instance. It sounds like the beat from Britney Spears' 'Toxic' mixed with an anthemic chorus
-that sounds like Lady Gaga, all while paying homage to Olivia Newton-John's 80's original hit. 
-It's nothing really new, but 'Future Nostalgia' just feels 10x more refreshing than any other 
-pop album on the market.</p>
+<p>Sure, the story isn't that great, and the boss battles are underwhelming, but that's like criticizing the salad bar
+at Fogo de Chao; that's not what you came to eat. Talion, your character, is the ultimate wraith-ranger badass. Tired
+of that archer shooting at you in the distance? Ok, Imma shoot a mystical arrow at him, teleport to where the arrow
+lands right behind him and then take care of him with my sword. Don't feel like fighting all of the orcs? Aight, Imma
+palm this orc boy in the face and possess him so that he fights the orcs for me. There's nothing quite like possessing
+a gigantic troll and riding it camp to camp and having the troll stomp on orc generals all over the place.</p>
 
-<p>It doesn't hurt that the production BUMPS. Whether it's the turbocharged bass on
-'Physical' or the frozen-in-time Darth Vaderesque strings on 'Love Again,' every production design
-choice feels deliberate.</p>
-
-<p>Unfortunately, a lot of songs ('Pretty Please' and 'Good In Bed' especially) would benefit
-tremendously if the hook was 20% better. So many songs are oh so close to being great which is my 
-only real frustration with the album.</p>
-
-<p>Overall, 'Future Nostalgia' isn't the greatest album of all time, but I am a fan.</p>
-
-<p>PS: Idk what it says about me that my favorite songs are 'Physical' and 'Good In Bed.'
-Don't read anything into this, Mom.</p>
-
-
-        <p>Favorite Tracks:</p>
-
-   <ol>
-       <li>Physical</li>
-       <li>Break My Heart</li>
-       <li>Good In Bed</li>
-   </ol>
-
-   </p><button id="Close">CLOSE</button>`
+<p>Shadow of Mordor takes the formula of a "fun bad" beat-em-up action movie and turns it into a great game. I can't
+think of a game that did a better job of giving the people what they want.</p>
+   
+   <button id="Close">CLOSE</button>`
 )
 
 }
 
-function the_strokes(){
+function dc(){
 
     close()
     var info = d3.select("#A_Desc")
 
-console.log('The Strokes - The New Abnormal')
+console.log('Dead Cells')
 
-info.html(`<p>The Strokes</p>
-<p>The New Abnormal</p>
+info.html(`<p>Dead Cells</p>
+<p>Mac</p>
+<p>Play Time: 250+ hours</p>
 
 
-<p>I am very late to the Strokes/Julian Casablancas party. I started paying attention when Julian Casablancas
-(the former, now current lead singer of The Strokes) and his edgier rock band called The Voidz released their
-2018 album 'Virtue'. I was struck by Julian's charismatic vocal delivery and the band's penchant for creating
-epic vocal and instrumental moments on the album. I was sold.</p>
-
-   <p>Fast forward to now, with Julian back with the chill vibes of The Strokes, we have a little more adventurous
-   version of that classic Strokes sound. In short, imagine The Strokes, but with Julian often using his voice in a
-   soaring, echo-y manner á la The Killers at the end of "All These Things That I've Done".</p>
-
-<p>Often, people might make fun of Radiohead fans for eating up every moan and mumble that lead singer
-    Thom Yorke utters on the mic. While it's a hyperbolic statement, that's where I'm at with Julian Casablancas.
-    You can have a nice Strokes backdrop with Julian riffing his heart away and I'm sold. That recipe works for me.</p>
-
-    <p>I personally struggle with rating any type of chill rock music. I can't find glaring flaws in the way that I find
-    them easier to spot in a hip-hop or pop album. It all sounds pretty good to me. That said, I'm loving this Strokes
-    record and hopefully you might too.</p>
-
-        <p>Favorite Tracks:</p>
-
-   <ol>
-       <li>Selfless</li>
-       <li>The Adults Are Talking</li>
-       <li>Ode To The Mets</li>
-   </ol>
+<p>Dead Cells review coming soon.</p>
 
    </p><button id="Close">CLOSE</button>`
 )

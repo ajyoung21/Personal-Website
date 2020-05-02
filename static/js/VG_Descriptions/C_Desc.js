@@ -25,9 +25,10 @@ console.log('Fortnite')
 
 info.html(`<p>Fortnite</p>
 <p>Mac</p>
+<p>Play Time: 3 hours</p>
 
 <p>I've only played about 5 games of Fortnite and I'm already done with it. I had a good time and I won a game against
-all odd. I can see 
+all odds. I can see 
 what made it such a cultural
 phenomenon, but I also understand why it's not for me.</p>
 
@@ -70,6 +71,7 @@ console.log('Baba Is You')
 
 info.html(`<p>Baba Is You</p>
 <p>Mac</p>
+<p>Play Time: 38 hours</p>
 
 <p>Baba Is You is a unique, quirky game that lets you play God, but is also hard as hell. It's hard to explain,
 but every word in the game is a constructor that you can manipulate to make an impossible level possible. For instance,
@@ -146,6 +148,7 @@ console.log('Darkest Dungeon')
 
 info.html(`<p>Darkest Dungeon</p>
 <p>Mac</p>
+<p>Play Time: 31 hours</p>
 
 <p>Darkest Dungeon is a very intriguing, turn-based dungeon crawler with oodles of complexity. You assemble a team
 of four different characters, each with a different role, to take on the forces of darkness. Every turn is a high-wire

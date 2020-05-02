@@ -1,5 +1,6 @@
 d3.select("#SUPERSTAR").on("click", superstar)
 d3.select("#JAYELECTRONICA").on("click", jayelec)
+d3.select("#DRAKE1").on("click", dldt)
 d3.select("#B_Desc").on("click", close)
 
 
@@ -99,6 +100,50 @@ just that. However, you just have to turn a blind eye to some annoying missteps.
        <li>A.P.I.D.T.A.</li>
        <li>The Blinding (feat. Travis Scott)</li>
        <li>Flux Capacitator</li>
+   </ol>
+
+   </p><button id="Close">CLOSE</button>`
+)
+
+}
+
+
+function dldt(){
+
+    close()
+    var info = d3.select("#B_Desc")
+
+console.log('Drake - Dark Lane Demo Tapes')
+
+info.html(`<p>Drake</p>
+<p>Dark Lane Demo Tapes</p>
+
+
+<p>Going into this, I was skeptical. Drake's output can often sound generic and inconsistent. His last full release,
+'Scorpion' definitely had some highlights, but was bloated with mediocre songs that should've been cut. Reading that
+this new release consisted of songs that didn't make the cut for an upcoming album, I had low expectations.</p>
+
+<p>And 'Dark Lane Demo Tapes' isn't without its flaws. Its lead single is 'Toosie Slide' a song manufactured to 
+generate a Tik Tok dance craze and serve no other purpose. It is one of my three least favorite songs this year.
+The Playboi Carti on 'Pain 1993' is as bad as Future on 'King's Dead' without a quarter of the memeability. 'War' is
+a decent song, but Drake's Jamaican-sounding delivery is goofy and diminishes the value of the track.</p>
+
+<p>Much of the highlights follow the same formula as 'Do Not Disturb' from Drake's 'More Life'. Essentially, Drake
+spends a lot of the album with the same deliberate paced flow reciting sad boy poetry one one-liner at a time.
+"You sold me up the river but I rode back/ You put me on the road without a road map." ('Losses'). 
+That sort of stuff.</p>
+
+<p>And you know what? I'm fine with that. I'm here for sentimental-bars Drake. This tape will be forgotten relatively
+soon, but it's enjoyable while it's on and is good quarantine fodder. If these are the B-Sides, my fingers are crossed
+for a pretty good Drake album this summer.</p>
+
+
+        <p>Favorite Tracks:</p>
+
+   <ol>
+       <li>Losses</li>
+       <li>From Florida With Love</li>
+       <li>Demons</li>
    </ol>
 
    </p><button id="Close">CLOSE</button>`

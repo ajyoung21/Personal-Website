@@ -122,7 +122,7 @@ Are these really your best BARS??
 function dua_lipa(){
 
     close()
-    var info = d3.select("#A_Desc")
+    var info = d3.select("#S_Desc")
 
 console.log('Dua Lipa - Future Nostalgia')
 
@@ -173,7 +173,7 @@ Don't read anything into this, Mom.</p>
 function the_strokes(){
 
     close()
-    var info = d3.select("#A_Desc")
+    var info = d3.select("#S_Desc")
 
 console.log('The Strokes - The New Abnormal')
 
