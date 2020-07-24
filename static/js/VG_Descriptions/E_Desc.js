@@ -1,4 +1,4 @@
-d3.select("#changes").on("click", changes)
+d3.select("#RAIN").on("click", rain)
 d3.select("#E_Desc").on("click", close)
 
 
@@ -13,49 +13,25 @@ function close() {
 }
 
 
-function changes(){
+function rain(){
 
     close()
     var info = d3.select("#E_Desc")
 
-console.log('Changes-Justin_Bieber')
+console.log('Risk of Rain')
 
-info.html(`<p>Justin Bieber</p>
-<p>Changes</p>
+info.html(`<p>Risk of Rain</p>
+<p>Mac</p>
 
-<p>*Full disclosure: I've only listened through the track with the Lil Dicky feature. You could
-say that I haven't listened to it enough. You could say that I've listened to too much.*</p>
+<p>Play Time: 8 Hours</p>
 
-<p>You remember when Chance came out with 'The Big Day' and it was bad and then there was
-that <a href="https://www.youtube.com/watch?v=TQcGnEhciNY">I love my wife</a> meme? Well, 
-Justin Bieber REALLY loves his wife. Almost to the extent that this album isn't for anyone else.
-</p>
+<p>This is somewhat of an unfair placement because this game is meant to played with friends and I played it alone 
+because I assume my friends were playing 'Risk of Rain 2' without me (I would've gotten it, but it's PC exclusive and
+I can play PC games but it's complicated).</p>
 
-<p>This isn't F-Tier. That spot in hell is reserved for the truly baffling masterpieces of
-Kid Cudi's 'Speedin' Bullet 2 Heaven' and Logic's 'Confessions of a Dangerous Mind'. This album
-is decently produced and decently sung. It's just very drab.
-</p>
-
-<p>It also has the two worst songs that I've heard this year. Going in, I was bracing for my least
-favorite song of the year, 'Yummy.' But I wasn't expecting the lifeless, sappy 'Intentions' 
-to take the mantle. Is this really what his wife wants? "Hey Hailey! I wrote you a half-baked
-song about monogamy. I got Quavo on it! *cough cough* Ahem... 'Shout-out to your mom and dad
-for makin' you.' (Actual lyrics)" 
-</p>
-
-<p>If the album wasn't cheesy enough, we haven't even hit the Lil Dicky feature.
-It wasn't terrible. I appreciated the Patrick Beverly shout-out. So there's that.</p>
-
-<p>While 'Changes' is bad, it's not memorably bad enough to make it to F-Tier. My condolences,
-Mr. Bieber.</p>
-
-
-<p>Favorite Tracks: 
-<ol>
-<li>Anything but 'Intentions'</li>
-<li>Anything but 'Yummy'</li>
-<li>The Clever feature was kinda nice.</li>
-</ol></p>
+<p>All I remember is that movement is slow, the difficulty is somewhat random given what loot you get, and that I wasn't
+fiending to keep playing even after I beat the game twice. It's not Dead Cells, but it was only $4 so I guess it was
+a decent return on investment.</p>
 
    </p><button id="Close">CLOSE</button>`
 )

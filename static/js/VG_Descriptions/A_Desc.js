@@ -184,6 +184,7 @@ Kingdom Hearts 1.5, 2.5, and 2.8, as they are mostly compilation remasters of ol
 
 <p>Have any hot/lukewarm music or video game takes? Message me on Instagram (@alex.young.90) or email me at
 ajyoung21@gmail.com</p>
+
    <center></p><button id="Close">CLOSE</button></center>`
 )
 

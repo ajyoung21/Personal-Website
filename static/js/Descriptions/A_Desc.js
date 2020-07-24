@@ -1,9 +1,9 @@
 
 
 d3.select("#UNLOCKED").on("click", unlocked)
+d3.select("#WEATHERDAY").on("click", weatherday)
 d3.select("#A_Desc").on("click", close)
-d3.select("#FUTURE_NOSTALGIA").on("click", dua_lipa)
-d3.select("#THE_STROKES").on("click", the_strokes)
+
 
 var info = d3.select("#A_Desc")
 
@@ -119,91 +119,45 @@ Are these really your best BARS??
 
 }
 
-function dua_lipa(){
+function weatherday(){
 
     close()
-    var info = d3.select("#S_Desc")
+    var info = d3.select("#A_Desc")
 
-console.log('Dua Lipa - Future Nostalgia')
+console.log('Weatherday - Come In')
 
-info.html(`<p>Dua Lipa</p>
-<p>Future Nostalgia</p>
+info.html(`<p>Weatherday</p>
+<p>Come In</p>
 
-<p>I'd like to think that over the years that I've become a "Poptimist" - a hipster that believes
-that pop music can be good. I'd also like to
-think that Pop music has gotten a lot more creative and inventive in the past few years.
-In a genre where labels are machine-learning formulas algorithms to create hits
-for the least common denominator, you worry that pop music is more focused on the end result
-(selling records and topping the charts) as opposed to the quality of the end product.</p>
+<p>*NOTE* This album came out in 2019, however given that I just discovered it and his limited popularity,
+I wanted to write about it. So here it is.</p>
 
-<p>Dua Lipa's 'Future Nostalgia' is formulaic, but in a way that closely studies
-what makes pop music great as opposed to blindly following the algorithm. Take the single 'Physical'
-for instance. It sounds like the beat from Britney Spears' 'Toxic' mixed with an anthemic chorus
-that sounds like Lady Gaga, all while paying homage to Olivia Newton-John's 80's original hit. 
-It's nothing really new, but 'Future Nostalgia' just feels 10x more refreshing than any other 
-pop album on the market.</p>
+<p>Come In is super lo-fi emotional rock that often if not always devolves into a mess, both good and bad.
+I wouldn't go as far to say that Come In a conceptual album, but it has conceptual themes, melodies, phrases 
+if you will
+that come back around together in then end.</p>
 
-<p>It doesn't hurt that the production BUMPS. Whether it's the turbocharged bass on
-'Physical' or the frozen-in-time Darth Vaderesque strings on 'Love Again,' every production design
-choice feels deliberate.</p>
+<p>Asides from its hypercharged, angsty banger title-track (my current 2020 song of the year, despite coming
+    out in 2019), Come In doesn't really hit its full stride until 'Embarassing Paintings.' This is where the album
+    take a much more vibey tone. It's hard to explain, but the core melodies and moments make up for a lot of the
+    rough parts of the album.
+</p>
 
-<p>Unfortunately, a lot of songs ('Pretty Please' and 'Good In Bed' especially) would benefit
-tremendously if the hook was 20% better. So many songs are oh so close to being great which is my 
-only real frustration with the album.</p>
-
-<p>Overall, 'Future Nostalgia' isn't the greatest album of all time, but I am a fan.</p>
-
-<p>PS: Idk what it says about me that my favorite songs are 'Physical' and 'Good In Bed.'
-Don't read anything into this, Mom.</p>
+    <p>If against all odds you're reading this and against all odds you decide to listen to this album front to
+    back, I encourage you to listen to the second half of 'Porcelain Hands' with the lyrics in front of you. On
+    first listen, the melody will be recognizable, but the lyrics are unintelligible unless you are reading them
+    while listening. For me, I had had a bad day at work and I went to this passage doing just this and felt a
+    wave of emotion that was awesome even if not all that cheerful lol. It's moments like these which give me fond
+    feelings towards this album, even when I can't make a clear musical case to explain why I have it so highly rated.</p>
 
 
         <p>Favorite Tracks:</p>
 
    <ol>
-       <li>Physical</li>
-       <li>Break My Heart</li>
-       <li>Good In Bed</li>
-   </ol>
-
-   </p><button id="Close">CLOSE</button>`
-)
-
-}
-
-function the_strokes(){
-
-    close()
-    var info = d3.select("#S_Desc")
-
-console.log('The Strokes - The New Abnormal')
-
-info.html(`<p>The Strokes</p>
-<p>The New Abnormal</p>
-
-
-<p>I am very late to the Strokes/Julian Casablancas party. I started paying attention when Julian Casablancas
-(the former, now current lead singer of The Strokes) and his edgier rock band called The Voidz released their
-2018 album 'Virtue'. I was struck by Julian's charismatic vocal delivery and the band's penchant for creating
-epic vocal and instrumental moments on the album. I was sold.</p>
-
-   <p>Fast forward to now, with Julian back with the chill vibes of The Strokes, we have a little more adventurous
-   version of that classic Strokes sound. In short, imagine The Strokes, but with Julian often using his voice in a
-   soaring, echo-y manner á la The Killers at the end of "All These Things That I've Done".</p>
-
-<p>Often, people might make fun of Radiohead fans for eating up every moan and mumble that lead singer
-    Thom Yorke utters on the mic. While it's a hyperbolic statement, that's where I'm at with Julian Casablancas.
-    You can have a nice Strokes backdrop with Julian riffing his heart away and I'm sold. That recipe works for me.</p>
-
-    <p>I personally struggle with rating any type of chill rock music. I can't find glaring flaws in the way that I find
-    them easier to spot in a hip-hop or pop album. It all sounds pretty good to me. That said, I'm loving this Strokes
-    record and hopefully you might too.</p>
-
-        <p>Favorite Tracks:</p>
-
-   <ol>
-       <li>Selfless</li>
-       <li>The Adults Are Talking</li>
-       <li>Ode To The Mets</li>
+       <li>Come In</li>
+       <li>Agatka</li>
+       <li>Porcelain Hands</li>
+       <li>Embarassing Paintings</li>
    </ol>
 
    </p><button id="Close">CLOSE</button>`

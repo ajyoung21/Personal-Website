@@ -1,7 +1,6 @@
-// d3.select("#AFTER_HOURS").on("click", after_hours)
+// d3.select("#100_Gecs").on("click", gecs)
 // d3.select("#S_Desc").on("click", close)
-// d3.select("#About").on("click", about)
-// d3.select("#About_Desc").on("click", close2)
+
 
 // var info = d3.select("#S_Desc")
 
@@ -13,51 +12,53 @@
 //     console.log('Close')
 // }
 
-// function close2() {
-//     var info = d3.select("#About_Desc")
-
-//     info.html('')
-//     console.log('Close')
-// }
 
 
-// function after_hours(){
+
+// function gecs(){
 
 //     close()
 //     var info = d3.select("#S_Desc")
 
-// console.log('The Weeknd - After Hours')
+// console.log('100 Gecs - 1000 Gecs and the Tree of Clues')
 
-// info.html(`<p>The Weeknd</p>
-// <p>After Hours</p>
+// info.html(`<p>100 Gecs</p>
+// <p>1000 Gecs and the Tree of Clues</p>
 
 
-// <p>**TENTATIVE PLACEMENT - I MAY BUMP DOWN TO A-TIER**</p>
+// <p>What do you do when you have a breakout album like 1000 Gecs? Remix, repackage, and milk your hits for all 
+// they're worth.</p>
 
-// <p>Abel Tesfaye (aka The Weeknd) hasn't ever been my jam. Sure, I'll like select singles like "The Hills" or
-// "Starboy," but the only time I listened to a Weeknd album front-to-back, (his 2016 album "Starboy")
-// I wasn't blown away.</p>
+// <p>Call it the Lil Nas Xification of the music industry (after Lil Nas X released three remixes of his breakout hit 
+//     "Old Town Road"), 100 Gecs is bringing back the songs that made them famous, only bigger, badder, and much more
+//     Gec than before.</p>
 
-// <p>While I'm not completely floored with this album, there are some very compelling moments
-// (Scared to Live and the title track to name a few) that propels this album above anything else 
-// I've heard this year. The Weeknd has leveled up his sound and songwriting.</p>
+// <p>The original album, 1000 Gecs, was my album of the year in 2019. While it definitely wasn't the most 
+// accessible album, often decomposing into unlistenable distortion just for the lols, at its core, 1000 Gecs was 
+// full of uneniably catchy,
+// hard-hitting melodies. 100 Gecs' uncompromising vision of glitchy, hyperpop mixed with all the genres under the
+// rainbow was a stunning standalone success. There was something genius below all the memes.</p>
 
-// <p>The album's biggest misstep is 'Snowchild,' where Abel Tesfaye reverts back to his old sound
-// and thinking that he can rap. "Stack a couple M's like I'm Shady"? 
-// "All my diamonds hitting like they Swae Lee"?? "Futuristic sex, give her Philip K Dick"???
-// Are these really your best BARS?? 
+// <p>Meanwhile, the genius of Tree of Clues lies in stretching its source material to absurd extremes.
+// The electronic hyperspeed 'hand crushed by a mallet' is now an angsty Fallout Boy alternative rock banger.
+// The cute, quirky 'ringtone' is now a cypher-style posse cut featuring Rico Nasty. The glitchy, distorted
+// xXXi_wud_nvrstop_UXXx is now the turbocharged dance club banger it apparently was always destined to be.
+// ALL OF THESE CHANGES MAKE SENSE and refresh the source material in ways that were previously unimaginable.
 // </p>
 
-//     <p>Still, 'After Hours' conveys genuine emotion and comes through with some of the best
-//     musical moments so far this year.</p>
+//     <p>100 Gecs' debut album 1000 Gecs very well may have been a fluke. Going for a remix album as opposed
+//     to risking a sophomore slum with new material was likely a calculated decision, and one I don't disagree
+//     with. Be that as it may, the community of artists that have gravitated around their sound shows that their
+//     influence is only continuing to grow.</p>
 
 
 //         <p>Favorite Tracks:</p>
 
 //    <ol>
-//        <li>After Hours</li>
-//        <li>Scared to Live</li>
-//        <li>Faith</li>
+//        <li>hand crushed by a mallet (Fallout Boy remix)</li>
+//        <li>ringtone (Charli XCX, Kero Kero Bonito, Rico Nasty remix)</li>
+//        <li>xXXi_wud_nvrstop_UXXx (Tommy Cash, Hannah Diamond remix)</li>
+//        <li>gecgecgec (Lil West and Tony Velour remix)</li>
 //    </ol>
 
 //    </p><button id="Close">CLOSE</button>`
@@ -65,33 +66,3 @@
 
 // }
 
-
-// function about(){
-
-//     close2()
-//     var info = d3.select("#About_Desc")
-
-// console.log('About')
-
-// info.html(`<h4>Last year I made a mid-year <a href="https://postgradpalabras.wordpress.com/2019/07/19/the-mid-year-aoty-tier-list-part-2/">Album of the Year Tier List.</a> 
-// It was a long, arduous process in which I had to dig deep into my brain to search for how
-// I felt about an album that I had listened to several months prior. I wanted to do an end-of-year
-// update to the list, but it was just too big of an undertaking (In short: 1. 1000 Gecs, 2. Juice WRLD 
-// 3. Billie Eilish, the Lana album was aight.) </br></br>
-// I want to make this a living, breathing document that I add to whenever I have an opinion on an
-// album. Think something like the Constituation, but people actually respect it and only my grandma
-// reads it.
-// </br></br>
-// I do not claim to be the <a href="https://www.youtube.com/user/theneedledrop">Internet's Busiest 
-// Music Nerd.</a> Some of these albums I'm just going to listen to once. I may crap on your
-// favorite album. I will be inconsistent. I may rate Billie Eilish too high (except I didn't and can
-// mathematically prove
-// that her album was better than Ariana Grande's album last year). It's nothing personal. Let me know if
-// you have any thoughts. I plan to keep adding to this page and possibly making more interactive
-// features depending on how much react.js I learn. Check it out!
-// </h4>
-
-//    <center></p><button id="Close">CLOSE</button></center>`
-// )
-
-// }
