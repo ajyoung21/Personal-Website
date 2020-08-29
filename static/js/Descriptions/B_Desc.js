@@ -1,5 +1,6 @@
 d3.select("#SUPERSTAR").on("click", superstar)
 d3.select("#JAYELECTRONICA").on("click", jayelec)
+d3.select("#BETHS").on("click", jrg)
 d3.select("#B_Desc").on("click", close)
 
 
@@ -107,3 +108,31 @@ just that. However, you just have to turn a blind eye to some annoying missteps.
 }
 
 
+function jrg(){
+
+    close()
+    var info = d3.select("#B_Desc")
+
+console.log('The Beths - Jump Rope Gazers')
+
+info.html(`<p>The Beths</p>
+<p>Jump Rope Gazers</p>
+
+
+<p>I don't have much of an opinion on this unfortunately because it came out the same week at Juice WRLD and 100 Gecs
+which got priority on re-listens. But it was pretty good, pretty chill. Not the hit-after-hit-after-hit that their
+first album was, but I enjoyed it.</p>
+
+
+        <p>Favorite Tracks:</p>
+
+   <ol>
+       <li>Dying to Beleive</li>
+       <li>Idk</li>
+       <li>Idk</li>
+   </ol>
+
+   </p><button id="Close">CLOSE</button>`
+)
+
+}

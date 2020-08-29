@@ -5,6 +5,7 @@ d3.select("#A_Desc").on("click", close)
 d3.select("#SHADOW").on("click", shadow)
 d3.select("#DEAD_CELLS").on("click", dc)
 d3.select("#HOLLOW_KNIGHT").on("click", hk)
+d3.select("#GHOST").on("click", ghost)
 d3.select("#About").on("click", about)
 d3.select("#About_Desc").on("click", close2)
 
@@ -128,6 +129,38 @@ a gigantic troll and riding it camp to camp and having the troll stomp on orc ge
 
 <p>Shadow of Mordor takes the formula of a "fun bad" beat-em-up action movie and turns it into a great game. I can't
 think of a game that did a better job of giving the people what they want.</p>
+   
+   <button id="Close">CLOSE</button>`
+)
+
+}
+
+function ghost(){
+
+    close()
+    var info = d3.select("#A_Desc")
+
+console.log('Ghost of Tsushima')
+
+info.html(`<p>Ghost of Tsushima</p>
+<p>PS4</p>
+
+<p>Ghost of Tsushima is an excellent samurai adventure that brings refreshing new ideas to the third-person stealth/action rpg
+genre. Of all the games in this genre, Ghost of Tsushima does crowd combat (when you're fighting a bunch of enemies by yourself) 
+the best.</p>
+
+<p>Going in, I had grown fatigue from this genre, and I thought that this game was going to do a lot of things that Sekiro: Shadows
+Die Twice did better. While Ghost of Tsushima isn't as good, it does forge its own lane with the complexity of its sword combat and
+the number of fun tools at your disposal.</p>
+
+<p>Where Ghost of Tsushima falters is in its boss battles/duels. Playing on "Lethal" difficulty, my character got an added damage boost
+in exchange for enemies having the ability to down you in one or two strikes. It feels like THE way to play the game, but it also makes
+these boss duels rather quick affairs. Either I'm getting wacked in the first 5 seconds or I'm finishing the boss of in 40. While these
+fights are tense, and I do have to learn how to counter SOME of their moves, any victory I had seemed to be due to being lucky for
+a minute rather than mastering the bosses' moveset.</p>
+
+<p>Still, Ghost's central conflict of choosing whether or not to fight honorably against an overwhelming force of dishonorable Mongols
+is compelling. Ghost's vibe and story is refreshing in a genre that is becoming increasingly crowded.</p>
    
    <button id="Close">CLOSE</button>`
 )
