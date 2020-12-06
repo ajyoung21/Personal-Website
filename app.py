@@ -31,6 +31,22 @@ def music():
 def video_game():
     return render_template("video_game_tier_list.html")
 
+@app.route("/year_end_lists/2020_songs")
+def twentytwentysongs():
+    return render_template("year_end_lists/2020_songs.html")
+
+@app.route("/year_end_lists/2020_albums")
+def twentytwentyalbums():
+    return render_template("year_end_lists/2020_albums.html")
+
+@app.route("/year_end_lists/2020_games")
+def twentytwentygames():
+    return render_template("year_end_lists/2020_games.html")
+
+@app.route("/year_end_lists")
+def year_end_lists():
+    return render_template("year_end_lists/landing_page.html")
+
 
 @app.route("/visuals")
 def globe():

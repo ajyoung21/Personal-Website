@@ -4,41 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alex Young: Data Scientist</title>
+    <title>The Best Songs of 2020</title>
 
     <script src="https://kit.fontawesome.com/be9a7d67ce.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/css/style.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/css/style2.css') }}">
     <link href="css/smoothness/jquery-ui-1.9.0.custom.css" rel="stylesheet">
     <script language="javascript" type="text/javascript" src="jquery-1.8.2.js"></script>
- 
     <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-ui-1.9.0.custom.js') }}"></script>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
 <link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css" />
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+<link
+href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+rel="stylesheet"
+/>
 </script>
 
 </head>
 
 <body>
 
-  <center><iframe id="scaled-frame" width="100%" height="1500px" iframe_zoom="2.5" src="static/images/Alex_Young_Resume.pdf"></iframe></center>
-              
- 
-              
-
-
-              <link
-              href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-              rel="stylesheet"
-            />
-          </head>
+  
           
+ 
+
+
+
+
+          
+  <div id="Everything_Else">
+
+     <center><p class="coverphoto"> <img src="../static/images/Year_End_Recaps/Best_Songs_Banner.jpg" ></p></center>
+
+
+     <p>Ok, I lied, these objectively aren't the best songs of 2020. A more politically correct description would be 
+       "My Favorite Songs of 2020" or "Weird, experimental alien noises that Alex listens to." But you
+       wouldn't haven't clicked then, would've you?</p>
+
+       <p>And objectively, 2020 hasn't been the best year for most people. You know the script. But in a year
+         that's been so tough for so many people, I'm thankful that you took the time to briefly check this 
+         out. Enjoy!
+       </p>
+
+       "I got that ring, just like Toronto"
+
+
+       <p>
+
+        Agenda: 1) Last Year's Bests 2) Worst Songs of the Year 3) Music Video of the Year 4) Best songs of
+        2020.
        
-           
+
+     </p>
+
+     <p> Last year's top 10:
+
+      <ol reversed>
+        <li>I Want A Dog - Hobo Johnson</li>
+        <li>Use This Gospel - Kanye West (feat. Clipse and Kenny G)</li>
+        <li>GONE GONE/THANK YOU - Tyler The Creator</li>
+        <li>Beaucoup - Lolo Zouai</li>
+        <li>Joyride - Kevin Abstract</li>
+        <li>Hand Crushed By A Mallet - 100 Gecs</li>
+        <li>GINGER - Brockhampton</li>
+        <li>On My Own - Anamanaguchi</li>
+        <li>Speedboat - Denzel Curry</li>
+        <li>Ring Ring/Empty (tie) - Juce WRLD</li>
+      </ol>
+
+      <p>Honorable Mentions: <ul>Wish You Were Gay - Billie Eilish 
+        18 Wheeler -  Benny the Butcher (feat. Pusha T), 
+        Needy - Ariana Grande, 
+        Who Shot Cupid? - Juice WRLD, 
+        money machine - 100 gecs, 
+        Wax On - Injury Reserve, 
+        Lockii - Iglooghost, 
+        Pressure - Little Simz, 
+        Dark Out - Global Dan (feat. Global AzN)
+      </ul>
+      </p>
+
+
+     </p>
+
+
+    </div>
+
+
+
     <nav class="navbar">
         <ul class="navbar-nav">
           <li class="logo">
@@ -220,26 +283,25 @@
     
         
       </nav>
-
-
-          
-
-            
-          
-              
-       
-    Salutations <i class="fas fa-address-card"></i><input id="btnShow" type="button" value="Show PDF" />
-    <div id="dialog" style="display: none">
     
+    
+    
+    
+    
+    
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/carousel.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/reax.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/theme.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/S_Desc.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/A_Desc.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/B_Desc.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/C_Desc.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/D_Desc.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/E_Desc.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/Descriptions/F_Desc.js') }}"></script>
+    
+    </body>
 
-    <div id="root"></div>
-
-    <img src="static/images/alexpng.png" class="center"> <i class="fas fa-address-card"></i><i class="fas fa-address-card"></i>
-
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/reax.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/theme.js') }}"></script>
-
-</body>
-</html>
+    
