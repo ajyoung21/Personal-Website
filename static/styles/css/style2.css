@@ -19,6 +19,18 @@ body {
   
 }
 
+#announcelist a{
+
+  font-size: 300%;
+  color: rgb(20, 96, 51);
+
+
+
+
+
+
+}
+
 p.coverphoto {
   position: relative;
 }
@@ -30,6 +42,16 @@ margin-left:auto;
 margin-right:auto;
 
 
+}
+
+#agenda{color: rgb(185, 85, 218)
+;
+font-size: 200%
+}
+
+h2{
+  color: rgb(35, 151, 187);
+  font-size: 320%;
 }
 
 p.coverphoto:after {
@@ -77,6 +99,8 @@ h4{
 p, li, button{
   font-size: 150%
 }
+
+
 
 
 
