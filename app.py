@@ -43,6 +43,10 @@ def twentytwentyalbums():
 def twentytwentygames():
     return render_template("year_end_lists/2020_games.html")
 
+@app.route("/year_end_lists/2021_midyear_recap")
+def twentytwentyone_midyear():
+    return render_template("year_end_lists/2021_midyear.html")
+
 @app.route("/year_end_lists")
 def year_end_lists():
     return render_template("year_end_lists/landing_page.html")

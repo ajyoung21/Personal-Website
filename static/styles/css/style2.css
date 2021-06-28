@@ -21,6 +21,11 @@ body {
   
 }
 
+a #announcelist {
+  font-size: 700%;
+
+}
+
 #announcelist {
 
   font-size: 300%;
@@ -32,6 +37,8 @@ body {
 
 
 }
+
+
 
 a { color: rgb(59, 191, 112);
 
